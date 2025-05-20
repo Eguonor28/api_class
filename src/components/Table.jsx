@@ -21,7 +21,7 @@ const Table = () => {
         <p className="hidden sm:block">Market Cap</p>
       </div>
       <div className="div">
-        {displayCoins.slice(0, 10).map((item, index) => (
+        {displayCoins.slice(0, 100).map((item, index) => (
           <Link
             className="grid grid-cols-[0.5fr_2fr_1fr_1fr_1fr] px-5 py-4 text-sm border-b border-gray-700 hover:bg-gray-900 transition"
             to={`coin/${item.id}`}
